@@ -16,7 +16,7 @@ namespace Practice_MathTest
             for (int i = 0; i < userInput; i++)
             {
                 Random numGen = new Random(); //creating an instance of the Random Class
-                int x = numGen.Next(1, 11);
+                int x = numGen.Next(1, 11); // setting Min and Max Values: this will generate random numbers from 1-10
                 int y = numGen.Next(1, 11);
 
                 Console.Write($"{i + 1})What is {x} multiplbied by {y}?:  ");
